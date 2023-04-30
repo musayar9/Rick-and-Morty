@@ -32,7 +32,7 @@ function Location() {
     }
     return (
         <div className='container mt-5'>
-            <h2 className='text-center fw-bold mt-5 mb-3 text-primary text-uppercase'>Locaitons</h2>
+            <h2 className='text-center fw-bold mt-5 mb-3 text-primary text-uppercase'>Locations</h2>
             <div className=' row row-cols-1 row-cols-md-3 g-0 mt-4 d-flex align-items-center justify-content-center'>
                 {
                     locations.map((local) => (
